@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+    <a href="login.php">
+        <img src="images/back-arrow.png"></a>
+    <p style="font-size: 20px; text-align: center;">It will take less than a minute,</p>
+    <p style="font-size: 20px; text-align: center;">Signup and start to backup your Essentiol files.</p>
+    <div class="div2">
+        <h2 id="signup_heading" style="text-align: center;">Signup</h2>
+
+        <form id="form" action="insert.php" method="POST">
+
+            Name :
+            <input id="user" type="text" name="username" required><br>Password :
+            <input id="user" type="password" name="password" required><br>Gender :
+            <input type="radio" name="gender" value="m" required>Male
+            <input type="radio" name="gender" value="f" required>Female<br>Email :
+            <input id="user" type="email" name="email" required> <br>Phone :
+
+            <select name="phoneCode" required>
+                    <option id="user">+91</option>
+                    <option id="user" value="+91">+91</option>
+                    <option id="user" value="+45">+45</option>
+                </select>
+            <input id="user" type="phone" name="phone" required><br>
+            <input id="bt2" type="submit" value="Signup">
+            <a href="login.php">
+                Sign in instead
+            </a><br>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

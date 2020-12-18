@@ -1,0 +1,63 @@
+        body {
+            color: black;
+            background-color: rgb(252, 251, 248);
+            font-family: 'Times New Roman';
+        }
+        
+        .div1 {
+            padding-right: 0%;
+            padding-left: 0%;
+            font-size: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border: rgb(3, 19, 22) solid 1px;
+            margin: 50px;
+            margin-left: 400px;
+            margin-right: 400px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        #user {
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+            background: rgb(250, 251, 252);
+            text-decoration-color: white;
+            text-align: center;
+        }
+        
+        #bt {
+            background-color: whitesmoke;
+            background-size: cover;
+            margin-left: 20px;
+            padding: 10px;
+            border-radius: 500px;
+            text-decoration-color: thistle;
+            font-size: medium;
+            text-align: center;
+        }
+        
+        .div2 {
+            padding-left: 0%;
+            font-size: 20px;
+            margin-left: 400px;
+            margin-right: 400px;
+            border-radius: 10px;
+            padding-top: 1px;
+            border: rgb(12, 12, 3) solid 1px;
+            text-align: center;
+        }
+        
+        #bt2 {
+            background-color: whitesmoke;
+            background-size: cover;
+            margin-left: 20px;
+            padding: 10px;
+            border-radius: 500px;
+            text-decoration-color: thistle;
+            font-size: medium;
+            padding-right: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
